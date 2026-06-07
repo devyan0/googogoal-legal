@@ -1,6 +1,6 @@
 # googogoal
 
-iOS 목표와 습관 트래커 **googogoal**의 법적 고지 페이지입니다.
+Support, privacy, and terms for **googogoal**, a goal and habit tracker for iOS.
 
 ## 개인정보처리방침 · Privacy Policy · プライバシーポリシー
 - [한국어](privacy-ko.html)

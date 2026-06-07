@@ -1,7 +1,5 @@
 # Googogoal Support / 지원 / サポート
 
-이 페이지는 App Store Connect의 Support URL로 사용할 정적 페이지 원문입니다. 세 언어를 한 페이지에 담아도 되고, 언어별 페이지로 나눠도 됩니다.
-
 **Contact / 문의 / お問い合わせ: googogoal@gmail.com**
 
 ---
