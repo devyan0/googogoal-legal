@@ -23,7 +23,7 @@ We do not ask you to register and we do not collect your name, postal address, o
 
 | Category | Examples | Source |
 |---|---|---|
-| Anonymous identifiers | Anonymous account ID (issued automatically via Supabase anonymous sign-in), device identifier used for analytics | Generated automatically when you open the App |
+| App/analytics identifiers | Device identifier used for analytics and subscription entitlement checks | Generated automatically while you use the App |
 | Content you create | Goal titles and descriptions, habit metrics, check-in records, and the free-text you enter for AI goal suggestions (for example, a description of a fitness or lifestyle goal) | Entered by you |
 | Subscription data | Subscription product identifier, purchase and renewal status, free-trial status (payment-card details are handled by Apple and never collected by the App) | Collected during purchase |
 | Usage data | Feature events, screen navigation, paywall interactions, and approximate location inferred from IP/network information | Collected automatically while you use the App |
@@ -51,12 +51,12 @@ We share data only with the service providers needed to run the App. Each acts o
 
 | Recipient | Purpose | Data shared |
 |---|---|---|
-| Supabase, Inc. | Backend infrastructure and anonymous authentication | Anonymous account ID |
+| Supabase, Inc. | AI request handling and server functionality | AI recommendation request data and technical request information |
 | Amplitude, Inc. | Product analytics | Device identifier, usage data, approximate location inferred from IP/network information |
 | RevenueCat, Inc. | Subscription billing and entitlement management | Subscription product identifier, purchase/renewal status |
 | OpenRouter, Inc. (gateway) / Google LLC / OpenAI, L.L.C. | Generate AI goal suggestions by sending your free-text to a large language model | Free-text for AI suggestions, category, and locale |
 
-When you use the AI suggestion feature, the free-text you typed is sent through OpenRouter to a Google Gemini or OpenAI model. We do **not** send your anonymous account ID or other identifiers with it.
+When you use the AI suggestion feature, the free-text you typed is sent through OpenRouter to a Google Gemini or OpenAI model. We do **not** send an account ID or other direct identifiers with it.
 
 We do not sell your personal information, and we do not "share" it for cross-context behavioral advertising as defined under the CCPA/CPRA.
 
@@ -71,7 +71,7 @@ Our service providers operate servers in the United States and other countries, 
 ## 6. How long we keep data
 
 - On-device goals and records: until you delete them in the App or delete the App.
-- Anonymous identifiers and analytics data: for as long as needed for the purposes above, then deleted.
+- App/analytics identifiers and analytics data: for as long as needed for the purposes above, then deleted.
 - Subscription records: as required by law and by Apple and our payment processor.
 - Free-text sent for AI suggestions: processed transiently to generate a result; retention thereafter follows each provider's policy.
 
