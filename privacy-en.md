@@ -1,6 +1,6 @@
 # Googogoal Privacy Policy
 
-**Effective date: 2026-06-06**
+**Effective date: 2026-06-07**
 
 Googogoal ("the App") is a goal and habit tracker. We respect your privacy and keep data collection to a minimum. This policy explains what we process, why, who we share it with, and the rights you have. It is written to address users in the European Economic Area / UK (GDPR) and California (CCPA/CPRA), as well as users everywhere else.
 
@@ -26,7 +26,7 @@ We do not ask you to register and we do not collect your name, postal address, o
 | Anonymous identifiers | Anonymous account ID (issued automatically via Supabase anonymous sign-in), device identifier used for analytics | Generated automatically when you open the App |
 | Content you create | Goal titles and descriptions, habit metrics, check-in records, and the free-text you enter for AI goal suggestions (for example, a description of a fitness or lifestyle goal) | Entered by you |
 | Subscription data | Subscription product identifier, purchase and renewal status, free-trial status (payment-card details are handled by Apple and never collected by the App) | Collected during purchase |
-| Usage data | Feature events, screen navigation, and paywall interactions | Collected automatically while you use the App |
+| Usage data | Feature events, screen navigation, paywall interactions, and approximate location inferred from IP/network information | Collected automatically while you use the App |
 
 We do **not** use advertising identifiers (IDFA), and we do **not** track you across other companies' apps or websites, so App Tracking Transparency does not apply.
 
@@ -52,7 +52,7 @@ We share data only with the service providers needed to run the App. Each acts o
 | Recipient | Purpose | Data shared |
 |---|---|---|
 | Supabase, Inc. | Backend infrastructure and anonymous authentication | Anonymous account ID |
-| Amplitude, Inc. | Product analytics | Device identifier, usage data |
+| Amplitude, Inc. | Product analytics | Device identifier, usage data, approximate location inferred from IP/network information |
 | RevenueCat, Inc. | Subscription billing and entitlement management | Subscription product identifier, purchase/renewal status |
 | OpenRouter, Inc. (gateway) / Google LLC / OpenAI, L.L.C. | Generate AI goal suggestions by sending your free-text to a large language model | Free-text for AI suggestions, category, and locale |
 
